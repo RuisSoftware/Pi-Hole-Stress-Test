@@ -31,6 +31,17 @@ Replace your_pihole_ip, desired_number_of_queries, and desired_delay with your s
 - QueryCount: The total number of DNS requests to be sent.
 - Delay: The delay (in milliseconds) between each DNS request.
 
+### Pi-hole Performance During Stress Test
+Below is a graphical representation showing the impact of the stress test on the Pi-hole server:
+
+- `pihole-queries-chart.png`: This chart displays the total number of DNS queries processed by the Pi-hole server over the last 24 hours. A significant spike can be observed, which corresponds to the period when the stress test was executed.
+
+- `pihole-clients-chart.png`: This chart shows client activity on the Pi-hole server over the last 24 hours. The sharp increase represents the influx of queries from the client (the testing machine) during the stress test.
+
+![Total Queries over Last 24 Hours](pihole-queries-chart.png)
+
+These charts can help in understanding the capabilities and limitations of your Pi-hole server under high load conditions.
+
 ### Warning
 Use this toolkit responsibly. It is intended for testing purposes only and should not be used on networks without proper authorization.
 
