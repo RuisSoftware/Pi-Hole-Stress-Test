@@ -4,13 +4,15 @@ This toolkit is designed to assess the performance and capacity of a Pi-hole ser
 
 ## Components
 
-- `pihole-stress-test.ps1`: A PowerShell script for sending DNS queries to a Pi-hole server.
-- `StartPiHoleTest.bat`: A batch file for an interactive experience, ideal for beginners.
+- `pihole-stress-test-en.ps1`: A PowerShell script for sending DNS queries to a Pi-hole server.
+- `pihole-stress-test-nl.ps1`: The same PowerShell script, but in Dutch.
+- `StartPiHoleTest-en.bat`: A batch file for an interactive experience, ideal for beginners.
+- `StartPiHoleTest-nl.bat`: The same batch file, but in Dutch.
 
 ## Usage
 
 ### For Advanced Users (PowerShell Script)
-1. Download `pihole-stress-test.ps1`.
+1. Download `pihole-stress-test-en.ps1` or `pihole-stress-test-nl.ps1`.
 2. Open PowerShell and navigate to the script's location.
 3. Run the script with parameters: 
    ```powershell
