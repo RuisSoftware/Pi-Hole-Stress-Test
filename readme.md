@@ -4,13 +4,14 @@ This toolkit is designed to assess the performance and capacity of a Pi-hole ser
 
 ## Components
 
-- `pihole-stress-test-en.ps1`: A PowerShell script for sending DNS queries to a Pi-hole server.
+- `pihole-stress-test-en.ps1`: A PowerShell script for sending DNS queries to a Pi-hole server (English).
 - `pihole-stress-test-nl.ps1`: The same PowerShell script, but in Dutch.
-- `StartPiHoleTest-en.bat`: A batch file for an interactive experience, ideal for beginners.
-- `StartPiHoleTest-nl.bat`: The same batch file, but in Dutch.
+- `StartPiHoleTest-en.bat`: A batch file for Windows that provides an interactive experience, ideal for beginners (English).
+- `StartPiHoleTest-nl.bat`: The same batch file for Windows, but in Dutch.
+- `pihole_stress_test_en.sh`: A Bash script for Linux users to perform the stress test (English).
+- `pihole_stress_test_nl.sh`: The same Bash script for Linux users, but in Dutch.
 
 ## Usage
-
 ### For Advanced Users (PowerShell Script)
 1. Download `pihole-stress-test-en.ps1` or `pihole-stress-test-nl.ps1`.
 2. Open PowerShell and navigate to the script's location.
@@ -21,10 +22,16 @@ This toolkit is designed to assess the performance and capacity of a Pi-hole ser
 Replace your_pihole_ip, desired_number_of_queries, and desired_delay with your specific values.
 
 ### For Beginners (Batch File)
-1. Download pihole-stress-test.ps1 and StartPiHoleTest.bat.
-2. Run StartPiHoleTest.bat.
+1. Download pihole-stress-test-en.ps1 or pihole-stress-test-nl.ps1 and the corresponding .bat file.
+2. Run the .bat file.
 3. Enter the Pi-hole IP address, number of queries, and delay between queries when prompted.
 4. The script will execute and start sending DNS queries to your Pi-hole server.
+
+## For Linux Users
+### Bash Script
+1. Download pihole_stress_test_en.sh or pihole_stress_test_nl.sh.
+2. Make the script executable with chmod +x pihole_stress_test.sh.
+3. Run the script with ./pihole_stress_test.sh and follow the prompts.
 
 ### Parameters Explanation
 - PiHoleIP: The IP address of your Pi-hole server.
