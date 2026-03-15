@@ -57,7 +57,7 @@ Contributions are welcome. Feel free to fork, modify, and make pull requests.
 MIT License
 
 ### Support and Contact
-For support, please open an issue on the GitHub page. For direct inquiries, please contact [Your Contact Information].
+For support, please open an issue on the GitHub page. 
 
 ### Acknowledgements
 - The Pi-hole project: https://pi-hole.net
